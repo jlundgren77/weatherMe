@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('', (req, res) => {
   res.render('index', {
-    title: 'Weather App',
+    title: 'Weather Me',
     name: 'Jeff Me'
   });
 });
